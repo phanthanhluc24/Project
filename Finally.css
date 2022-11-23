@@ -1,0 +1,618 @@
+.family-hearder{
+    position: fixed;
+    z-index: 1;
+}
+.background-hearder{
+    width: auto;
+    height: 89px;
+    display: flex;
+    background: #ffffff;
+}
+.family-hearder-tab{
+    margin-left: 40px;
+    line-height: 85px;
+}
+.hearder-logo{
+    width:275.5px ;
+    height:65px ;
+    margin-left: 170px;
+    line-height: 85px;
+}
+.hearder-form{
+    left: 150%; 
+}
+.hearder-form input{
+    width: 400px;
+    margin-top: 25px;
+    border: 2px solid #fdc236;
+    border-radius: 4px;
+}
+.form-look{
+    right: 43.2%;
+    top: 21%;
+    position: absolute;
+    width: 30px;
+    height: 26px;
+    border-left-style:solid;
+    padding-left: 6px;
+    background: #fdc236;
+    border-color: #fdc236;
+    color: aliceblue;
+}
+.hearder-icon-location{
+    position: absolute;
+    left: 60%;
+    top: 22%;
+    width: 40px;
+    height: 28px;
+    padding-left: 0.8%;
+    border-radius: 4px;
+    background: #fdc236;
+    border-color: #fdc236;
+    color: aliceblue;
+}
+.hearder-icon .hearder-icon-shop{
+    margin-top: 30px;
+    margin-left: 250px;
+    border: 1px solid;
+    width: 123px;
+    height: 28px; 
+    padding-left: 10px;
+    border-radius: 4px;
+    background: #fdc236;
+    border-color: #fdc236;
+    color: aliceblue;
+}
+.hearder-number-0{
+    position: absolute;
+    width:20px;
+    height: 20px;
+    margin-top: -35px;
+    margin-left: 360px;
+    border: 1px solid;
+    border-radius: 50%;
+    padding:5px;
+    line-height: 5px;
+    background: #F44336;
+    color: aliceblue;
+}
+/*  Phần menu Cha con */
+.father-menu{
+    width:1583px ;
+    height:40px ;
+    background: black;
+}
+.menu-list> li{
+    display: inline;
+    list-style: none;
+}
+.menu-list> li >a{
+    line-height: 41px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 9px ;
+    color: aliceblue;
+    left: 200px;
+    position: relative;
+    animation-name: demo;
+    animation-duration:2s; 
+    animation-iteration-count: infinite;
+}
+@keyframes demo{
+    0%   {color: red;}
+    25%  {color: burlywood;}
+    30% {color: lightcoral;}
+    40% {color: darkkhaki;}
+    60% {color: aqua;}
+    70% {color: chartreuse;}
+    50%  {color: gold;}
+    100% {color: whitesmoke;}
+  }
+.menu-list .yeallow a{
+    background: #fdc236;
+}
+.menu-div{
+    background: #ffffff;
+    display: none;
+    background: white;
+    width:940px;
+    line-height: 40px;
+    position: absolute;
+    margin-left: 200px;
+}
+.menu-down{
+    position: absolute;
+    left: 36%;
+}
+.fa-angle-right{
+    margin-left: 130px;
+}
+.menu-down-one{
+    width: 100%;
+    display: none;
+    background: white;
+    width: 240px;
+    position: absolute;
+    left: -85%;  
+}
+.menu-down-one li{
+    width: 100%;
+    list-style: none;
+    text-align: left
+   
+}
+.menu-down-one li a{
+    text-decoration: none;
+    width: 100%;
+    display: block;
+    line-height: 25px;
+    color: black;
+    left: -25%; 
+}
+.menu-down-two{
+    display: none;
+    width: 100%;
+    position: absolute;
+    background: white;
+    top: 60%;
+    left: 100%;
+}
+.menu-down-two{
+    color: #1a1a1a;
+}
+.father-menu .menu-list a:hover{
+    background: #fdc236;
+    transition: ease-in 0.5s;
+            -o-transition: ease-in 0.5s;
+            -webkit-transition:ease-in 0.5s ;
+}
+.menu-list li:hover .menu-div{
+    display: block;
+    transition: ease-in 0.5s;
+            -o-transition: ease-in 0.5s;
+            -webkit-transition:ease-in 0.5s ;
+}
+.menu-list li:hover .menu-down-one{
+    display: block;
+    color: #fdc236;
+}
+.menu-down-one li:hover .menu-down-two{
+    display: block;
+    color: #fdc236;
+}
+/* Ảnh trên ảnh */
+.body-photo{
+    width: 1332px;
+    height:524px ;
+    margin-left: 90px;
+    padding-top: 130.4px;
+}
+
+.picture-text .color-picture{
+    margin-left: 50px;
+    margin-top: 30px;
+    color: #fdc236;
+
+}
+.picture-text p{
+    margin-left: 50px;
+    color: #ffffff;
+}
+.body-photo-picture{
+    position: absolute;
+    border: 1px solid black;
+    width: 800px;
+    height:227px ;
+    margin-left:400px;
+    margin-top: -250px;
+    background: #00000099;
+}
+.button-text{
+    margin-left: 50px;
+    border-color: #fdc236;
+    border: 1px solid #fdc236;
+    line-height:50px ;
+    width: 130px;
+    height: 50px;
+    
+}
+.button-text a{
+    color: #fdc236;
+    margin-left: 24px;
+}
+.button-text:hover{
+    background: #fdc236;
+    color: #1a1a1a;
+}
+.button-text:hover a{
+    color: #1a1a1a;
+    text-decoration: none;
+}
+/* Về chúng tôi */
+.about-we{
+    text-align: center;
+    margin-top: 180px;
+}
+.title{
+    text-transform: uppercase;
+    font-size: 24px;
+}
+.about-we-icon{
+    margin-top: -70px;
+}
+.fa-square{
+    font-size: 10px;
+    background:#1a1a1a ;
+}
+.fa-window-minimize{
+    font-size: 70px;
+    color: #fdc236;
+}
+.global-write{
+    margin-top: 10px;
+    margin-bottom: 60px;
+    color: #1a1a1a;
+}
+.col-md-6{
+    left: 70px;
+}
+.photo-home img{
+    margin-left: 90px;
+}
+/* why choose we */
+.why-choose-we{
+    text-align: center;
+    margin-top: 160px; 
+}
+/*  */
+.mother-hover .borther{
+    position: relative;
+    width: 150px;
+    height: 150px   ;
+    border: 1px solid #e5e5e5;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.mother-hover .borther img{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    top:20%;
+}
+.mother-hover .sixter{
+    position: relative;
+    width: 150px;
+    height: 150px   ;
+    border: 1px solid #e5e5e5;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.mother-hover .sixter img{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    top:20%;
+}
+.mother-hover .friend{
+    position: relative;
+    width: 150px;
+    height: 150px   ;
+    border: 1px solid #e5e5e5;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.mother-hover .friend img{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    top:20%;
+}
+.father-hover .mother-hover:hover .borther{
+    border: 1px solid #fdc236;
+}
+.father-hover .mother-hover:hover .sixter{
+    border: 1px solid #fdc236;
+}
+.father-hover .mother-hover:hover .friend{
+    border: 1px solid #fdc236;
+}
+.mother-hover h5{
+    margin-top: 30px;
+}
+/* Icon and number */
+.top{
+    margin-top: 20px; 
+}
+/*  */
+.fa-desktop{
+    margin-left: 80px;
+}
+.row h3{
+    margin-top: -30px;
+}
+.fa-people-group{
+    margin-left: 80px;
+}
+.fa-person-circle-plus{
+    margin-left: 80px;
+}
+.fa-trophy{
+    margin-left: 80px;
+}
+.number{
+    width: 100%;
+    height: 160px;
+    background:#fdc236;
+}
+.number i{
+    margin-left: 100px;
+    margin-top: 50px;
+    font-size: 50px;
+}
+.number h3{
+    margin-top: -50px;
+}
+.number p{
+    margin-left: -25px;
+    margin-top: -10px;
+}
+.number .project{
+    margin-left: 20px;
+}
+.number .watrest{
+    margin-left: 1px;
+}
+/* Dự án của chúng tôi */
+.myproject{
+    text-align: center;
+    margin-top: 70px;
+}
+/*  */
+.menu-tab{
+    width:950px ;
+    height:41px ;  
+    margin-top: 40px;  
+    margin-left: 500px;
+}
+.menu-first-tab li{
+    display: inline;
+    list-style: none;
+}
+.menu-first-tab li a{
+    line-height: 37px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 30px ;
+    color: #666666;
+}
+.menu-first-tab li a:hover{
+    color: #fdc236;
+}
+/*  Nhà Căn hộ */
+.hover-photo img{
+    position: relative;
+}
+.hover-photo .hide{
+    margin-top: -250px;
+    margin-left: 75px;
+    position: absolute;
+    width: 290px;
+    height: 250px;
+    padding-top: 80px;
+    right: -7%;
+    display: none;
+}
+.hover-photo .picture1:hover .hide{
+    display: block;
+    background: #00000099;
+    color: #fdc236;
+}
+.hover-photo .picture2:hover .hide{
+    display: block;
+    background: #00000099;
+    color: #fdc236;
+}
+.hover-photo .picture3:hover .hide{
+    display: block;
+    background: #00000099;
+    color: #fdc236;
+}
+.hover-photo .picture4:hover .hide{
+    display: block;
+    background: #00000099;
+    color: #fdc236;
+}
+.hover-photo .picture5:hover .hide{
+    display: block;
+    background: #00000099;
+    color: #fdc236;
+}
+.hover-photo .picture6:hover .hide{
+    display: block;
+    background: #00000099;
+    color: #fdc236;
+}
+.hover-photo .picture7:hover .hide{
+    display: block;
+    background: #00000099;
+    color: #fdc236;
+}
+.hover-photo .picture8:hover .hide{
+    display: block;
+    background: #00000099;
+    color: #fdc236;
+}
+/* Tab */
+.tab1{
+    height: 45px;
+}
+.tab2 {
+    width: 200px;
+    height: 45px;
+    border-radius: 5px;
+}
+.tab3{
+    width: 180px;
+    height: 42px;
+    border-radius: 5px;
+}
+.new-product{
+    text-align: center;
+    margin-top: 150px;
+}
+
+.tab-content-tap1 button{
+    display: none;
+    position: absolute;
+    border: none;
+    color: #999999;
+    border-radius: 4px;
+}
+.tab-content-tap1 button:hover{
+    background: #fdc236;
+    color: #e5e5e5;
+}
+.tab-content-tap1 .service1:hover .a1{
+    display: block;
+    margin-top: -40px;
+}
+.tab-content-tap2 .service1:hover .a1{
+    display: block;
+}
+.tab-content-tap3 .service1:hover .a1{
+    display: block;
+}
+.tab-content-tap4 .service1:hover .a1{
+    display: block;
+}
+.tab-content-tap5 .service1:hover .a1{
+    display: block;
+}
+/*  */
+.center-menu{
+    margin-bottom: 30px;
+    margin-left: 350px;
+}
+.center-menu ul li{
+    padding: 5px ;
+}
+li.tab2:hover{
+    background: #fdc236;
+    color: white;
+    border-radius: 5px;
+}
+li.tab3:hover{
+    background: #fdc236;
+    color: white;
+    border-radius: 5px;
+}
+/* tin nổi bật */
+.new-line{
+    margin-top: 100px;
+}
+.new-line-high{
+    text-align: center;
+    margin-top: 100px;
+}
+/* watch news */
+.saigon-house{
+    color: white;
+    position: absolute;
+    margin-top: -140px;
+    position: absolute;
+    border: 1px solid black;
+    width: 465px;
+    height: 147;
+    background: #00000099;
+}
+.day-year{
+    color: bisque;
+    position: absolute;
+    margin-left: 30px;
+    margin-top: -150px;
+    width: 50px;
+    padding-top: -10px;
+}
+.year-2018{
+    color: bisque;
+    position: absolute;
+    margin-left: 30px;
+    margin-top: -100px; 
+    width: 50px;
+    height: 37px;
+}
+.year-2018 p {
+    background-color: gray;
+    text-align: center;
+}
+.day-year p {
+    background-color: #fdc236;
+    text-align: center;
+    margin-top: 2px;
+}
+.three-text h6{
+    margin-top: -8px;
+    margin-left: 7px;
+}
+
+.three-text span{
+    color: #999999;
+    margin-left: 7px;
+}
+.three-text p{
+    margin-left: 7px;
+}
+.three-text{
+    right: 60px;
+}
+.watch-new{
+    line-height: 40px;
+    text-align: center;
+    margin-left: 750px;
+    border: 1px solid  #fdc236;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    display: inline-block;
+    width: 130px;
+    height: 40px;
+    text-transform: uppercase;
+    background: #fdc236;
+    color: #ffffff;
+}
+.watch-new:hover{
+    color:#1a1a1a;
+}
+.Watch-new-icon-5{
+    width: 100%;
+    height: 109px;
+    background: #fdc236;
+}
+/* foodter */
+.footer{
+    background: #1a1a1a;
+}
+.foodter-color{
+    color: #999999;
+}
+.foodter-color h6{
+    color: #ffffff;
+}
+.foodter-color li{
+    list-style: none;
+    line-height: 40px;
+    border-bottom: 1px dashed #999999;
+    margin-left: -40px;
+}
+.foodter-color li a{
+    text-decoration: none;
+      color: #999999;
+    
+}
+.foodter-color li a:hover{
+    color: #fdc236;
+}
+
+    /* transform: translate3d(-1110px, 0px, 0px); transition: all 0.25s ease 0s; width: 2405px; */
